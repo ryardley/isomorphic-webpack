@@ -32,6 +32,13 @@ export default (code: string, userOptions: RunInNewContextType = {}, windowUrl?:
       }
     },
     require,
+    Buffer,
+    clearImmediate,
+    clearInterval,
+    clearTimeout,
+    setImmediate,
+    setInterval,
+    setTimeout,
     window
   };
 
